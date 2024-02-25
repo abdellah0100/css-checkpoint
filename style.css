@@ -1,10 +1,44 @@
-body{
-    background-color: aqua;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
-
-h1{
-    background-color: brown;
-    color: aliceblue;
-    align-items: center;
+header {
+    background-color: #000000;
+    color: white;
+    padding: 5px 20px;
     text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 40px;
+}
+nav ul li a {
+ 
+    color: rgba(252, 246, 246, 0.904);
+    text-decoration: none;
+    text-align: center;
+    
+}
+body {
+    background-color: #07010c;
+    padding: 0px;
+    color: rgba(244, 244, 245, 0.945)
+}
+section {
+    margin-bottom: 40px
+}
+footer {
+    background-color: #2a3a3a0c;
+    color: rgb(226, 221, 221);
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
